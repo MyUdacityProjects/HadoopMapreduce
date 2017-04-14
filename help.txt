@@ -1,0 +1,4 @@
+/usr/local/Cellar/hadoop/2.7.3/bin/hadoop fs -ls /user/harshi/output
+/usr/local/Cellar/hadoop/2.7.3/bin/hadoop jar /usr/local/Cellar/hadoop/2.7.3/libexec/share/hadoop/tools/lib/hadoop-streaming-2.7.3.jar -mapper mapper.py -reducer reducer.py -file mapper.py -file reducer.py -input /user -output /user/harshi/output
+cat testfile.txt | python Q1mapper.py | python Q1reducer.py 
+/usr/local/Cellar/hadoop/2.7.3/bin/hadoop fs -rm -r /user/harshi/output
