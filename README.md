@@ -1,5 +1,6 @@
-### Introduction to Hadoop and MapReduce
+## Introduction to Hadoop and MapReduce
 
+Link to the course - https://www.udacity.com/course/intro-to-hadoop-and-mapreduce--ud617
 
 ##### Sales Data Processing
 
